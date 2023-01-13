@@ -3,7 +3,9 @@ title: "Untitled"
 author: "Eric Langowski"
 date: "1/12/2023"
 output: 
-  html_document
+  html_document:
+    df_print: paged
+    theme: sandstone
 ---
 
 ```{r setup, include=FALSE}
